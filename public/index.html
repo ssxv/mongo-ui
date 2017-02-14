@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+	<title>Mongo - UI</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<link rel="styleSheet" href="http://ui-grid.info/release/ui-grid.min.css"/>
+	<script src="http://ui-grid.info//release/ui-grid.min.js"></script>
+	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+</head>
+
+<body ng-app="demouigridAppex">
+
+    <h2>Mongo UI</h2>
+    <div ng-controller="demouigridCtrlexample">
+		<div>
+			<input type="text" placeholder="give new field name" ng-model="fieldname"/>
+			<input type="button" value="Add Field" ng-click="addField()"/>
+			<input type="button" value="Add Record" ng-click="addRecord()"/>
+			<input type="button" value="Save to Database" ng-click="saveToDatabase()"/>
+		</div>
+		<div ui-grid="nggridOptionsdemo" ui-grid-edit ui-grid-selection class="demomyGrid">
+		</div>
+    </div>
+	
+	<script src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "mongo-ui",
+  "version": "1.0.0",
+  "description": "ui to mongodb, unsing angular js, node, mongo db :P",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssxv/mongo-ui.git"
+  },
+  "author": "satyendra singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssxv/mongo-ui/issues"
+  },
+  "homepage": "https://github.com/ssxv/mongo-ui#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  }
+}
